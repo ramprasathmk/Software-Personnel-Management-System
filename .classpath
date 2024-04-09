@@ -7,8 +7,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:\GitHub\ramprasathmk\Software-Personnel-Management-System\mysql-connecter\mysql-connector.jar"/>
-		<!-- path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"  --> 
+		<!-- path="D:\GitHub\ramprasathmk\Software-Personnel-Management-System\mysql-connecter\mysql-connector.jar"  --> 
 		<!-- set the path of where your mysql connecter location. like my current location
-		D:\College\Employee_Project\Employee-Management-System\mysql-connecter -->
+		D:\GitHub\ramprasathmk\Software-Personnel-Management-System\mysql-connecter\mysql-connector.jar -->
 	<classpathentry kind="output" path="bin"/>
 </classpath>
