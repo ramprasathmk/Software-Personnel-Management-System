@@ -11,8 +11,9 @@ class Front_Page implements ActionListener{
     JButton b;
 
     Front_Page(){
+        String JFrame_title = "SOFTWARE PERSONNEL MANAGEMENT SYSTEM";
  
-        f=new JFrame("SOFTWARE PERSONNEL MANAGEMENT SYSTEM");
+        f=new JFrame(JFrame_title.toLowerCase());
         f.setBackground(Color.red);
         f.setForeground(Color.DARK_GRAY);
         f.setLayout(null);
@@ -42,10 +43,10 @@ class Front_Page implements ActionListener{
         
    
 
-        JLabel lid=new JLabel("EMPLOYEE MANAGEMENT SYSTEM");
+        JLabel lid=new JLabel("SOFTWARE PERSONNEL MANAGEMENT SYSTEM");
         lid.setBounds(80,30,1500,100);
-        lid.setFont(new Font("serif",Font.PLAIN,70));
-        lid.setForeground(Color.red);
+        lid.setFont(new Font("serif",Font.PLAIN,50));
+        lid.setForeground(Color.GREEN);
         id.add(lid);
 
         id.add(b);
