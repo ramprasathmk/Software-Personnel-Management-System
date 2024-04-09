@@ -49,8 +49,8 @@ public class AboutUs extends JFrame{
             contentPane.add(l5);*/
 
 
-            JLabel l6 = new JLabel("Developed By : JEET,VIDHIN,& JENEESH");
-            l6.setFont(new Font("Trebuchet MS", Font.BOLD, 30));
+            JLabel l6 = new JLabel("Developed By : RAMPRASATH, SALIESH & SANTHOSH");
+            l6.setFont(new Font("Trebuchet MS", Font.BOLD, 28));
             l6.setBounds(70, 198, 600, 35);
             contentPane.add(l6);
 
