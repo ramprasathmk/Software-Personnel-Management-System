@@ -54,27 +54,27 @@ public class AboutUs extends JFrame{
             l6.setBounds(70, 198, 600, 35);
             contentPane.add(l6);
 
-            JLabel l7 = new JLabel("Roll Number - 5 ,6 , & 13");
+            JLabel l7 = new JLabel("Reg NO: [53 , 57, 59]");
             l7.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
             l7.setBounds(70, 260, 600, 34);
             contentPane.add(l7);
 
-            JLabel l8 = new JLabel("Contact : www.spcevng.ac.in ");
-            l8.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
-            l8.setBounds(70, 290, 600, 34);
-            contentPane.add(l8);
+            // JLabel l8 = new JLabel("Contact : www.spcevng.ac.in ");
+            // l8.setFont(new Font("Trebuchet MS", Font.BOLD, 20));
+            // l8.setBounds(70, 290, 600, 34);
+            // contentPane.add(l8);
 
-            JLabel l9 = new JLabel("Education - B.Tech ( INFORMATION TECHNOLOGY )");
+            JLabel l9 = new JLabel("Education: B.Tech (IT) @ AAMEC");
             l9.setFont(new Font("Trebuchet MS", Font.BOLD , 20));
             l9.setBounds(70, 320, 600, 34);
             contentPane.add(l9);
 
 
-            JLabel l10 = new JLabel("Phone - +91 0000000000");
-            l10.setForeground(new Color(47, 79, 79));
-            l10.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 18));
-            l10.setBounds(70, 400, 600, 34);
-            contentPane.add(l10);
+            // JLabel l10 = new JLabel("Phone - +91 0000000000");
+            // l10.setForeground(new Color(47, 79, 79));
+            // l10.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 18));
+            // l10.setBounds(70, 400, 600, 34);
+            // contentPane.add(l10);
                 
                 
             contentPane.setBackground(Color.WHITE);
