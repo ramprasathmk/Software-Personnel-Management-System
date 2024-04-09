@@ -79,7 +79,5 @@ public class AboutUs extends JFrame{
                 
             contentPane.setBackground(Color.WHITE);
 	}
-        
-
 }
 
