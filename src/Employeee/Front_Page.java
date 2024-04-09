@@ -12,7 +12,7 @@ class Front_Page implements ActionListener{
 
     Front_Page(){
         String JFrame_title = "SOFTWARE PERSONNEL MANAGEMENT SYSTEM";
- 
+        
         f=new JFrame(JFrame_title.toLowerCase());
         f.setBackground(Color.red);
         f.setForeground(Color.DARK_GRAY);
