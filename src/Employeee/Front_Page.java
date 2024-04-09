@@ -12,8 +12,9 @@ class Front_Page implements ActionListener{
 
     Front_Page(){
  
-        f=new JFrame("Employee Management System");
+        f=new JFrame("SOFTWARE PERSONNEL MANAGEMENT SYSTEM");
         f.setBackground(Color.red);
+        f.setForeground(Color.DARK_GRAY);
         f.setLayout(null);
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/front.jpg"));
