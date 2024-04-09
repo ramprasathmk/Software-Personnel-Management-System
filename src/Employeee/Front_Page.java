@@ -78,6 +78,7 @@ class Front_Page implements ActionListener{
     }
 
     public static void main(String[] arg){
+        @SuppressWarnings("unused")
         Front_Page f = new Front_Page();
     }
 }
