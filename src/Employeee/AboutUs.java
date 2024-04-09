@@ -30,7 +30,7 @@ public class AboutUs extends JFrame{
             contentPane.add(l1);
 
 
-            JLabel l3 = new JLabel("Employee");
+            JLabel l3 = new JLabel("Software Personnel");
             l3.setForeground(new Color(0, 0, 255));
             l3.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 34));
             l3.setBounds(140, 40, 200, 55);
