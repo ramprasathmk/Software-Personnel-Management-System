@@ -11,7 +11,7 @@ class Front_Page implements ActionListener{
     JButton b;
 
     Front_Page(){
-        String JFrame_title = "SOFTWARE PERSONNEL MANAGEMENT SYSTEM";
+        final String JFrame_title = "SOFTWARE PERSONNEL MANAGEMENT SYSTEM";
         
         f=new JFrame(JFrame_title.toLowerCase());
         f.setBackground(Color.red);
