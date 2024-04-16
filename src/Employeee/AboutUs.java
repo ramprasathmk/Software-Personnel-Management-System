@@ -28,22 +28,22 @@ public class AboutUs extends JFrame implements ActionListener {
 
             JLabel l1 = new JLabel("New label");
             ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/AboutUs.png"));
-            Image i2 = i1.getImage().getScaledInstance(250, 100,Image.SCALE_DEFAULT);
+            Image i2 = i1.getImage().getScaledInstance(i1.getIconWidth(), i1.getIconHeight(),Image.SCALE_DEFAULT);
             ImageIcon i3 = new ImageIcon(i2);
             l1 = new JLabel(i3);
-            l1.setBounds(400, 40, 250, 100);
+            l1.setBounds(500, 40, 250, 100);
             contentPane.add(l1);
 
 
             JLabel l3 = new JLabel("Software Personnel");
             l3.setForeground(new Color(0, 0, 255));
-            l3.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 34));
-            l3.setBounds(140, 40, 200, 55);
+            l3.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 30));
+            l3.setBounds(100, 40, 200, 55);
             contentPane.add(l3);
 
             JLabel l4 = new JLabel("Mangement System");
             l4.setForeground(new Color(0, 0, 255));
-            l4.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 34));
+            l4.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 28));
             l4.setBounds(70, 90, 405, 40);
             contentPane.add(l4);
 
@@ -55,7 +55,7 @@ public class AboutUs extends JFrame implements ActionListener {
 
 
             JLabel l6 = new JLabel("Developed By : RAMPRASATH, SALIESH & SANTHOSH");
-            l6.setFont(new Font("Trebuchet MS", Font.BOLD, 28));
+            l6.setFont(new Font("Trebuchet MS", Font.BOLD, 22));
             l6.setBounds(70, 198, 600, 35);
             contentPane.add(l6);
 

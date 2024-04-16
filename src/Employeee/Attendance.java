@@ -1,5 +1,6 @@
 package Employeee;
 
+import java.util.Date;
 import java.sql.*;
 import javax.swing.*;
 import java.awt.*;
@@ -77,7 +78,7 @@ public class Attendance extends JFrame implements ActionListener{
 		
         String f = fh.getSelectedItem();
         String s = sh.getSelectedItem();
-        String dt = new java.util.Date().toString();
+        String dt = new Date().toString();
         String id=c2.getSelectedItem();
         String qry = "INSERT INTO `attendance`(`emp_id`, `first`, `second`, `Date`) VALUES("+ id +",'"+f+"','"+s+"','"+dt+"')";
          // now select Attendance table
