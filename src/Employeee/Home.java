@@ -24,10 +24,10 @@ class Home  implements ActionListener{
         l1.setIcon(i1);
         f.add(l1);
 
-        l2 = new JLabel("HOME ICONE");
+        l2 = new JLabel("HOME");
         l2.setBounds(400,20,240,40);
         l2.setFont(new Font("serif",Font.BOLD,30));
-        l2.setForeground(Color.black);
+        l2.setForeground(Color.white);
         l1.add(l2);
 
         b1=new JButton("Employee");

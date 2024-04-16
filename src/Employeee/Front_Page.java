@@ -20,7 +20,7 @@ class Front_Page implements ActionListener{
         f.setLayout(null);
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/front.jpg"));
-        Image i2 = i1.getImage().getScaledInstance(1200,700,Image.SCALE_DEFAULT);
+        Image i2 = i1.getImage().getScaledInstance(1200,900,Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l1 = new JLabel(i3);
         
@@ -31,9 +31,7 @@ class Front_Page implements ActionListener{
         b = new JButton("CLICK HERE TO CONTINUE");
         b.setForeground(new Color( 0,0,0));
     	b.setBackground(new Color(204, 255, 255));
-        b.setFont(new Font("Tahoma", Font.BOLD, 25));
-       
-        
+        b.setFont(new Font("Tahoma", Font.BOLD, 25));        
 
         b.setBounds(475,600,400,70);
         b.addActionListener(this);

@@ -7,11 +7,10 @@ import java.awt.event.*;;
 public class AboutUs extends JFrame implements ActionListener {
 
 	private JPanel contentPane;
-    public JButton b5;
-    public JFrame f;
+    public JButton backButton, exitButton;
 
         public static void main(String[] args) {
-            new AboutUs().setVisible(true);			
+            new AboutUs();			
 	}
     
         public AboutUs() {
@@ -75,11 +74,18 @@ public class AboutUs extends JFrame implements ActionListener {
             l9.setBounds(70, 320, 600, 34);
             contentPane.add(l9);
 
-            b5=new JButton(" BACK ");
-            b5.setBounds(420,200,100,40);
-            b5.setFont(new Font("serif",Font.BOLD,15));
-            b5.addActionListener((ActionListener) this);
-            contentPane.add(b5);
+            backButton=new JButton(" BACK ");
+            backButton.setBounds(420,350,100,40);
+            backButton.setFont(new Font("serif",Font.BOLD,15));
+            backButton.addActionListener((ActionListener) this);
+            contentPane.add(backButton);
+
+            exitButton=new JButton(" EXIT ");
+            exitButton.setBounds(530,350,100,40);
+            exitButton.setFont(new Font("serif",Font.BOLD,15));
+            exitButton.addActionListener(this);
+            exitButton.setForeground(Color.red);
+            contentPane.add(exitButton);
 
 
             // JLabel l10 = new JLabel("Phone - +91 0000000000");
@@ -93,9 +99,14 @@ public class AboutUs extends JFrame implements ActionListener {
 	}
 
     public void actionPerformed(ActionEvent ae) {
-        if(ae.getSource()==b5){
+        if(ae.getSource()==backButton){
             contentPane.setVisible(false);
-            new Home(); 
+            new Home();
+        }  
+        
+        if(ae.getSource()==exitButton){
+            contentPane.setVisible(false);
+            System.exit(0);
         }
     }
 }
