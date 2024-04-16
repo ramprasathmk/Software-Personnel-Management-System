@@ -7,10 +7,11 @@ import java.awt.event.*;
 
 class Front_Page implements ActionListener{
     JFrame f; 
-    JLabel id,l1;
+    JLabel id, l1;
     JButton b;
 
     Front_Page(){
+        // Project TITLE
         final String JFrame_title = "SOFTWARE PERSONNEL MANAGEMENT SYSTEM";
         
         f=new JFrame(JFrame_title.toLowerCase());
