@@ -60,7 +60,7 @@ public class Login_user extends JFrame implements ActionListener{
 	b1.setBounds(149, 181, 113, 39);
 	panel.add(b1);
 		
-        b2 = new JButton("SignUp");
+    b2 = new JButton("SignUp");
 	b2.addActionListener(this);
 	b2.setFont(new Font("Tahoma", Font.BOLD, 13));
 	b2.setForeground(new Color( 0,0, 0));
@@ -71,7 +71,7 @@ public class Login_user extends JFrame implements ActionListener{
 	b3 = new JButton("Forgot Password");
 	b3.addActionListener(this);
 	
-        b3.setForeground(new Color(255, 255, 255));
+    b3.setForeground(new Color(255, 255, 255));
 	b3.setBackground(new Color( 255,0, 0));
 	b3.setFont(new Font("Tahoma", Font.BOLD, 15));
 	b3.setBounds(199, 231, 179, 39);

@@ -2,10 +2,13 @@ package Employeee;
 
 import java.awt.*;
 import javax.swing.*;
+import java.awt.event.*;;
 
-public class AboutUs extends JFrame{
+public class AboutUs extends JFrame implements ActionListener {
 
 	private JPanel contentPane;
+    public JButton b5;
+    public JFrame f;
 
         public static void main(String[] args) {
             new AboutUs().setVisible(true);			
@@ -13,7 +16,10 @@ public class AboutUs extends JFrame{
     
         public AboutUs() {
             
+            // f.setBackground(Color.white);
+            // f.setLayout(null);
             super("About Us");
+            // f=new JFrame("About Us");
             setBackground(new Color(173, 216, 230));
             setBounds(350, 150, 700, 500);
 		
@@ -69,6 +75,12 @@ public class AboutUs extends JFrame{
             l9.setBounds(70, 320, 600, 34);
             contentPane.add(l9);
 
+            b5=new JButton(" BACK ");
+            b5.setBounds(420,200,100,40);
+            b5.setFont(new Font("serif",Font.BOLD,15));
+            b5.addActionListener((ActionListener) this);
+            contentPane.add(b5);
+
 
             // JLabel l10 = new JLabel("Phone - +91 0000000000");
             // l10.setForeground(new Color(47, 79, 79));
@@ -79,4 +91,11 @@ public class AboutUs extends JFrame{
                 
             contentPane.setBackground(Color.WHITE);
 	}
+
+    public void actionPerformed(ActionEvent ae) {
+        if(ae.getSource()==b5){
+            contentPane.setVisible(false);
+            new Home(); 
+        }
+    }
 }

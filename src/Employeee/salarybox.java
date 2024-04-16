@@ -6,7 +6,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-class salarybox implements ActionListener{
+class salarybox implements ActionListener {
 
     JFrame f;
     JLabel l1,l2;
