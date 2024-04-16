@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `account` (
-  `username` varchar(20) NOT NULL,
+  `username` varchar(20) NOT NULL UNIQUE,
   `name` varchar(25) NOT NULL,
   `password` varchar(25) NOT NULL,
   `sec_q` varchar(25) NOT NULL,
@@ -49,7 +49,7 @@ INSERT INTO `account` (`username`, `name`, `password`, `sec_q`, `sec_ans`) VALUE
 --
 
 CREATE TABLE `attendance` (
-  `emp_id` varchar(20) NOT NULL,
+  `emp_id` varchar(20) NOT NULL UNIQUE,
   `first` varchar(10) NOT NULL,
   `second` varchar(10) NOT NULL,
   `Date` varchar(30) NOT NULL
@@ -74,21 +74,21 @@ CREATE TABLE `employee` (
   `age` int(3) NOT NULL,
   `dob` date NOT NULL,
   `address` varchar(50) NOT NULL,
-  `phone` int(10) NOT NULL,
+  `phone` int(10) NOT NULL UNIQUE,
   `email` varchar(30) NOT NULL,
   `education` varchar(15) NOT NULL,
   `post` varchar(15) NOT NULL,
-  `aadhar` varchar(12) NOT NULL,
-  `emp_id` int(5) NOT NULL
+  `aadhar` varchar(12) NOT NULL UNIQUE,
+  `emp_id` int(5) NOT NULL UNIQUE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `employee`
 --
 
-INSERT INTO `employee` (`name`, `fname`, `age`, `dob`, `address`, `phone`, `email`, `education`, `post`, `aadhar`, `emp_id`) VALUES
-('vidhinpatel', 'D', 20, '2021-09-23', 'malosan', 1236547891, 'v@v.com', 'B.tech', 'programer', '789654123654', 101),
-('jeet', 'a', 20, '2002-05-15', 'visnagar', 1236547895, 'j@j.com', 'IT', 'hr', '456987123654', 102);
+-- INSERT INTO `employee` (`name`, `fname`, `age`, `dob`, `address`, `phone`, `email`, `education`, `post`, `aadhar`, `emp_id`) VALUES
+-- ('vidhinpatel', 'D', 20, '2021-09-23', 'malosan', 1236547891, 'v@v.com', 'B.tech', 'programer', '789654123654', 101),
+-- ('jeet', 'a', 20, '2002-05-15', 'visnagar', 1236547895, 'j@j.com', 'IT', 'hr', '456987123654', 102);
 
 -- --------------------------------------------------------
 
@@ -109,9 +109,9 @@ CREATE TABLE `salary` (
 -- Dumping data for table `salary`
 --
 
-INSERT INTO `salary` (`id`, `hra`, `da`, `med`, `pf`, `basic_salary`) VALUES
-(101, '1000.00', '1000.00', '1555.00', '1000.00', '10000.00'),
-(102, '84584.00', '55468.00', '55.00', '5425.00', '5458.00');
+--INSERT INTO `salary` (`id`, `hra`, `da`, `med`, `pf`, `basic_salary`) VALUES
+-- (101, '1000.00', '1000.00', '1555.00', '1000.00', '10000.00'),
+-- (102, '84584.00', '55468.00', '55.00', '5425.00', '5458.00');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
