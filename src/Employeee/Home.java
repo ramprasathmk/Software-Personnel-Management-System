@@ -1,5 +1,3 @@
-
-
 package Employeee;
 
 import java.awt.*;
@@ -24,11 +22,13 @@ class Home  implements ActionListener{
         l1.setIcon(i1);
         f.add(l1);
 
+
         l2 = new JLabel("HOME");
         l2.setBounds(400,20,240,40);
         l2.setFont(new Font("serif",Font.BOLD,30));
         l2.setForeground(Color.white);
         l1.add(l2);
+
 
         b1=new JButton("Employee");
         b1.setBounds(380,80,120,40);
@@ -47,23 +47,26 @@ class Home  implements ActionListener{
     	b2.setBackground(new Color(255,255,255));
         l1.add(b2);
 
+
         b3=new JButton("Attendance");
         b3.setBounds(380,140,120,40);
         b3.setFont(new Font("serif",Font.BOLD,15));
         b3.addActionListener(this);
         b3.setForeground(new Color(0,0,0));
-    	b3.setBackground(new Color(255,255,255));
+        b3.setBackground(new Color(255,255,255));
         l1.add(b3);
+
 
         b4=new JButton("About");
         b4.setBounds(530,140,120,40);
         b4.setFont(new Font("serif",Font.BOLD,15));
         b4.addActionListener(this);
         b4.setForeground(new Color(0,0,0));
-    	b4.setBackground(new Color(255,255,255));
+        b4.setBackground(new Color(255,255,255));
         l1.add(b4);
         
-       /* b5=new JButton(" Contact-Us ");
+
+        /* b5=new JButton(" Contact-Us ");
         b5.setBounds(420,200,100,40);
         b5.setFont(new Font("serif",Font.BOLD,15));
         b5.addActionListener(this);
@@ -75,19 +78,18 @@ class Home  implements ActionListener{
         b6.setFont(new Font("serif",Font.BOLD,15));
         b6.addActionListener(this);
         b6.setForeground(Color.red);
-    	b6.setBackground(new Color(255,255,255));
+        b6.setBackground(new Color(255,255,255));
         l1.add(b6);
 
         f.setVisible(true);
         f.setSize(700,400);
         f.setLocation(400,200);
-
     }
 
     public void actionPerformed(ActionEvent ae){
         if(ae.getSource()==b1){
             f.setVisible(false);
-           new employers();
+            new employers();
         }
         if(ae.getSource()==b2){
             f.setVisible(false);
@@ -103,14 +105,14 @@ class Home  implements ActionListener{
             new AboutUs().setVisible(true);	
         }
         
-       /* if(ae.getSource()==b5){
+        /* if(ae.getSource()==b5){
             f.setVisible(false);
-             new contact(); 
+            new contact(); 
         }*/
         
         if(ae.getSource()==b6){
             f.setVisible(false);
-           System.exit(0);
+            System.exit(0);
         }
         
     }
