@@ -6,8 +6,8 @@ import java.awt.event.*;;
 
 public class AboutUs extends JFrame implements ActionListener {
 
-	private JPanel contentPane;
-    public JButton backButton, exitButton;
+	JPanel contentPane;
+    JButton backButton, exitButton;
 
         public static void main(String[] args) {
             new AboutUs();			
