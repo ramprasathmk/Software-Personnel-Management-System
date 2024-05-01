@@ -47,6 +47,7 @@ public class pay_slip extends JFrame implements ActionListener {
 
     }
 
+    @SuppressWarnings("deprecation")
     public void actionPerformed(ActionEvent e) {
 
         try {
