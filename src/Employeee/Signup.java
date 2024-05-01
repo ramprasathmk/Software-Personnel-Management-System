@@ -14,12 +14,14 @@ public class Signup extends JFrame implements ActionListener {
 	private JTextField textField_2;
 	private JTextField textField_3;
 	private JButton b1, b2;
+	@SuppressWarnings("rawtypes")
 	private JComboBox comboBox;
 
 	public static void main(String[] args) {
 		new Signup().setVisible(true);
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public Signup() {
 		setBounds(400, 200, 606, 406);
 		contentPane = new JPanel();
@@ -53,8 +55,10 @@ public class Signup extends JFrame implements ActionListener {
 		contentPane.add(lblAnswer);
 
 		comboBox = new JComboBox();
-		comboBox.setModel(new DefaultComboBoxModel(new String[] { "Your NickName?", "Your Lucky Number?",
-				"Your child SuperHero?", "Your childhood Name ?" }));
+		comboBox.setModel(new DefaultComboBoxModel(new String[] { 
+			"Your NickName?", "Your Lucky Number?",
+			"Your child SuperHero?", "Your childhood Name ?" 
+		}));
 		comboBox.setBounds(265, 202, 148, 20);
 		contentPane.add(comboBox);
 
@@ -140,7 +144,6 @@ public class Signup extends JFrame implements ActionListener {
 			if (ae.getSource() == b2) {
 				this.setVisible(false);
 				new Login_user().setVisible(true);
-
 			}
 		} catch (Exception e) {
 

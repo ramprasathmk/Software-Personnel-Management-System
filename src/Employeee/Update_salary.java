@@ -96,6 +96,7 @@ public class Update_salary extends JFrame implements ActionListener, ItemListene
         setLocation(400, 200);
     }
 
+    @SuppressWarnings("unused")
     public void actionPerformed(ActionEvent ae) {
 
         if (ae.getSource() == b1) {

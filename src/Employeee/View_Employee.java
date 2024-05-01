@@ -58,12 +58,14 @@ class View_Employee implements ActionListener {
         }
         if (ae.getSource() == b) {
             f.setVisible(false);
-            Print_Data p = new Print_Data(t.getText());
+            // Print_Data p = new Print_Data(t.getText());
+            new Print_Data(t.getText());
         }
 
     }
 
     public static void main(String[] ar) {
-        View_Employee v = new View_Employee();
+        // View_Employee v = new View_Employee();
+        new View_Employee();
     }
 }

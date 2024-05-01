@@ -5,6 +5,7 @@ import java.sql.*;
 import javax.swing.*;
 import java.awt.event.*;
 
+@SuppressWarnings("unused")
 class Update_Employee extends Add_Employee implements ActionListener {
 
     JFrame f;
