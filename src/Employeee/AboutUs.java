@@ -6,6 +6,10 @@ import java.awt.event.*;;
 
 public class AboutUs extends JFrame implements ActionListener {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     JPanel contentPane;
     JButton backButton, exitButton;
 

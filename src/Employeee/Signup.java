@@ -8,6 +8,11 @@ import javax.swing.border.*;
 
 public class Signup extends JFrame implements ActionListener {
 
+	/**
+	 *
+	 */
+	
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField_1;

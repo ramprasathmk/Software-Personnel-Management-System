@@ -6,6 +6,12 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Update_salary extends JFrame implements ActionListener, ItemListener {
+
+    /**
+     *
+     */
+    
+    private static final long serialVersionUID = 1L;
     JLabel l1, l2, l3, l4, l5, l6;
     JTextField t1, t2, t3, t4, t5, t6;
     JButton b1, b2;

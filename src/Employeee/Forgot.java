@@ -6,6 +6,7 @@ import javax.swing.border.*;
 import java.sql.*;
 import java.awt.event.*;
 
+@SuppressWarnings("serial")
 public class Forgot extends JFrame implements ActionListener {
 
 	private JPanel contentPane;
