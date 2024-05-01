@@ -29,16 +29,15 @@ What is needed to set up the dev environment. For instance, global dependencies 
 Here's a brief intro about what a developer must do in order to start developing
 the project further:
 
-```shell
-gh repo clone Vidhinpatel08/Employee-Management-System
-cd Employee-Management-System/
-
+```bash
+    > https://github.com/ramprasathmk/Software-Personnel-Management-System.git
+    > cd Software-Personnel-Management-System
 ```
 
 Step 1: Deployee Database
 - goto Xampp Control panel , open Apache and mysql server
-- goto Crome and serach : http://localhost/phpmyadmin/
-- create  new data base name **project3** 
+- goto Chrome or your fav browser and serach : http://localhost/phpmyadmin/
+- create new data base name **project3** 
 - goto **import** navigater
 - choose your Database file **"project3"** and upload there and click to **Go**
 
@@ -46,7 +45,7 @@ Step 2: Install JDK & Eclipse step by step
 - no need Additional features
 
 Step 3 : open Project Folder in Eclipse
-
+- Run `Front_Page.java` by clicking the play button
 
 
 
@@ -56,7 +55,7 @@ Now, you need to change some line as per your connecton :
 ##### JDBC Connecter 
 ###### open .classpath file and change
 
-```
+```xml
 	<classpathentry kind="lib" path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"/>
 		<!-- path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"  --> 
 		<!-- set the path of where your mysql connecter location. like my current location
@@ -67,7 +66,7 @@ Now, you need to change some line as per your connecton :
 ##### JDK connecter
 ###### open conn.java file and change
 
-```
+```xml
 	<classpathentry kind="lib" path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"/>
 		<!-- path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"  --> 
 		<!-- set the path of where your mysql connecter location. like my current location
@@ -80,7 +79,7 @@ you can change you code as per your Requirement.
 
 ### Deploying / Publishing
 
-- Goto Front_Page.java and simple run file simple like normal java file.
+- Goto `Front_Page.java` and simple run file simple like normal java file.
 
 
 ## Style guide / Testing
@@ -119,11 +118,12 @@ How to work Our Application .
 
 ## Database
 
-- Goto Xampp Control panel , open Apache and mysql server
-- Goto Crome and serach : http://localhost/phpmyadmin/
-- Create  new data base name **project3** 
-- Goto **import** navigater
+- Goto Xampp Control panel , Start the **Apache** and **MySQL** server
+- Goto Chrome or your convinent browser and Type:  **http://localhost/phpmyadmin**
+    - [click here!](http://localhost/phpmyadmin/)
+- Create  new database name **project3** 
+- Then goto **import** navigater
 - Choose your Database file **"project3"** and upload there and click to **Go**
 
 ## License
-This project is licensed under <a href="./LICENSE"> Apache License 2.0 </a> 2022
+This project is licensed under <a href="./LICENSE"> Apache License 2.0 </a> 2024
