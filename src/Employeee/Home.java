@@ -4,13 +4,13 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-class Home implements ActionListener {
+public class Home implements ActionListener {
 
     JFrame f;
     JLabel l1, l2;
     JButton b1, b2, b3, b4, b5, b6;
 
-    Home() {
+    public Home() {
         f = new JFrame("HOME PAGE");
         f.setBackground(Color.white);
         f.setLayout(null);

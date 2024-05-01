@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-@SuppressWarnings({ "unused" })
+@SuppressWarnings({ "unused", "serial" })
 public class Attendanceview extends JFrame implements ActionListener {
 
     JTable j1;

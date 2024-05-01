@@ -5,12 +5,12 @@ import javax.swing.*;
 import java.lang.Thread;
 import java.awt.event.*;
 
-class Front_Page implements ActionListener {
+public class Front_Page implements ActionListener {
     JFrame f;
     JLabel id, l1;
     JButton b;
 
-    Front_Page() {
+    public Front_Page() {
         // Project TITLE
         final String JFrame_title = "SOFTWARE PERSONNEL MANAGEMENT SYSTEM";
 
