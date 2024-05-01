@@ -73,7 +73,7 @@ class Front_Page implements ActionListener {
 
         if (ae.getSource() == b) {
             f.setVisible(false);
-            new Login_user().setVisible(true);
+            new Login().setVisible(true);
         }
     }
 

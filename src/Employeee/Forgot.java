@@ -155,7 +155,7 @@ public class Forgot extends JFrame implements ActionListener {
 			}
 			if (ae.getSource() == b3) {
 				this.setVisible(false);
-				new Login_user().setVisible(true);
+				new Login().setVisible(true);
 
 			}
 		} catch (Exception e) {

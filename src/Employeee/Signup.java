@@ -129,7 +129,7 @@ public class Signup extends JFrame implements ActionListener {
 				st.setString(5, textField_3.getText());
 
 				this.setVisible(false);
-				new Login_user().setVisible(true);
+				new Login().setVisible(true);
 
 				int i = st.executeUpdate();
 				if (i > 0) {
@@ -143,7 +143,7 @@ public class Signup extends JFrame implements ActionListener {
 			}
 			if (ae.getSource() == b2) {
 				this.setVisible(false);
-				new Login_user().setVisible(true);
+				new Login().setVisible(true);
 			}
 		} catch (Exception e) {
 
