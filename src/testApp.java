@@ -1,12 +1,9 @@
-package test;
+import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.Assert.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import Employeee.*;
-public class testAPP {
 
+class testApp {
 	@Test
 	public void test() {
 		assertEquals(1, 1);
@@ -27,5 +24,4 @@ public class testAPP {
 	public void test2() {
 		assertNotNull(new Login().isDisplayable());
 	}
-
 }
