@@ -120,7 +120,7 @@ How to work Our Application .
 
 - Goto Xampp Control panel , Start the **Apache** and **MySQL** server
 - Goto Chrome or your convinent browser and Type:  **http://localhost/phpmyadmin**
-    - [click here!](http://localhost/phpmyadmin/)
+    - or Simply [click here!](http://localhost/phpmyadmin/)
 - Create  new database name **project3** 
 - Then goto **import** navigater
 - Choose your Database file **"project3"** and upload there and click to **Go**
