@@ -30,7 +30,7 @@ Here's a brief intro about what a developer must do in order to start developing
 the project further:
 
 ```bash
-    > https://github.com/ramprasathmk/Software-Personnel-Management-System.git
+    > git clone https://github.com/ramprasathmk/Software-Personnel-Management-System.git
     > cd Software-Personnel-Management-System
 ```
 
