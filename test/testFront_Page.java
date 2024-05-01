@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import Employeee.*;
+import src.Employeee.*;
 
 public class testFront_Page {
 	
