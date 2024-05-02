@@ -2,10 +2,9 @@ package test;
 
 import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.Test;
-import Employeee.*
-;
+import Employeee.*;
+
 public class testAPP {
 
 	@Test
