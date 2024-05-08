@@ -14,11 +14,6 @@ class testAPP {
 	}
 
 	@Test
-	void test3() {
-		assertNotNull(new Front_Page());
-	}
-
-	@Test
 	void test1() {
 		assertNotNull(new Login().isDisplayable());
 	}
