@@ -15,11 +15,16 @@ class testAPP {
 
 	@Test
 	void test1() {
-		assertNotNull(new Login().isDisplayable());
+		assertNotNull(new Login());
 	}
 	
 	@Test
 	void test2() {
+		assertNotNull(new Login().isDisplayable());
+	}
+
+	@Test
+	void test3() {
 		assertNotNull(new Home());
 	}	
 }
