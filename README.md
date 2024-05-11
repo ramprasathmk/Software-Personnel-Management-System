@@ -8,7 +8,7 @@ An employee management system is a software, that helps your employees to give t
 # Installing / Getting started
 ## Developing
 
-### Built With
+## Built With
 1. Eclipse IDE
 2. jdk-18.0.2.1
 3. mysql-connector.jar
@@ -17,14 +17,14 @@ An employee management system is a software, that helps your employees to give t
 <hr>
 
 
-### Prerequisites
+## Prerequisites
 What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
 1. https://www.eclipse.org/downloads/
 2. https://www.apachefriends.org/download.html
 <hr>
 
 
-### Setting up Dev
+## Setting up Dev
 
 Here's a brief intro about what a developer must do in order to start developing
 the project further:
@@ -34,26 +34,26 @@ the project further:
     > cd Software-Personnel-Management-System
 ```
 
-Step 1: Deployee Database
+**Step 1:** Deployee Database
 - goto Xampp Control panel , open Apache and mysql server
 - goto Chrome or your fav browser and serach : http://localhost/phpmyadmin/
 - create new data base name **project3** 
 - goto **import** navigater
 - choose your Database file **"project3"** and upload there and click to **Go**
 
-Step 2: Install JDK & Eclipse step by step 
+**Step 2:** Install JDK & Eclipse step by step 
 - no need Additional features
 
-Step 3 : open Project Folder in Eclipse
+**Step 3 :** open Project Folder in Eclipse
 - Run `Front_Page.java` by clicking the play button
 <hr>
 
 
-### Building
+## Building
 
 Now, you need to change some line as per your connecton :
-##### JDBC Connecter 
-###### open .classpath file and change
+#### JDBC Connecter 
+##### open .classpath file and change
 
 ```xml
 	<classpathentry kind="lib" path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"/>
@@ -78,7 +78,7 @@ Now, you need to change some line as per your connecton :
 you can change you code as per your Requirement.
 <hr>
 
-### Deploying / Publishing
+## Deploying / Publishing
 
 - Goto `Front_Page.java` and simple run file simple like normal java file.
 
