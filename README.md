@@ -1,7 +1,6 @@
 # SOFTWARE PERSONNEL MANAGEMENT SYSTEM 
 
-<hr>
-<img src="./src/Employeee/icons/view.jpg" alt="Logo of the project" align="center">
+<img src="https://squeezegrowth.com/wp-content/uploads/2022/12/1549-Best-School-Management-Software-rev.png" alt="Logo of the project" align="center">
 <hr>
 
 An employee management system is a software, that helps your employees to give their best efforts every day to achieve the goals of your organization. It guides and manages employees efforts in the right direction. It also securely stores and manages personal and other work-related details for your employees.
@@ -15,13 +14,14 @@ An employee management system is a software, that helps your employees to give t
 3. mysql-connector.jar
 4. xampp-windows-x64-8.0.9-0-VS16
 5. mysql
+<hr>
 
 
 ### Prerequisites
 What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
 1. https://www.eclipse.org/downloads/
-2. https://www.eclipse.org/downloads/
-3. https://www.apachefriends.org/download.html
+2. https://www.apachefriends.org/download.html
+<hr>
 
 
 ### Setting up Dev
@@ -46,7 +46,7 @@ Step 2: Install JDK & Eclipse step by step
 
 Step 3 : open Project Folder in Eclipse
 - Run `Front_Page.java` by clicking the play button
-
+<hr>
 
 
 ### Building
@@ -76,6 +76,7 @@ Now, you need to change some line as per your connecton :
 ```
 
 you can change you code as per your Requirement.
+<hr>
 
 ### Deploying / Publishing
 
@@ -111,7 +112,7 @@ How to work Our Application .
       - Update Salary
       - Generate Payment slips 
   7. About US Panel
-
+<hr>
 <br>
 
 
@@ -124,6 +125,7 @@ How to work Our Application .
 - Create  new database name **project3** 
 - Then goto **import** navigater
 - Choose your Database file **"project3"** and upload there and click to **Go**
+<hr>
 
 ## License
 This project is licensed under <a href="./LICENSE"> Apache License 2.0 </a> 2024
