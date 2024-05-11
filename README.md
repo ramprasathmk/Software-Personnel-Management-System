@@ -8,6 +8,7 @@ An employee management system is a software, that helps your employees to give t
 # Installing / Getting started
 ## Developing
 
+
 ## Built With
 1. Eclipse IDE
 2. jdk-18.0.2.1
@@ -25,7 +26,6 @@ What is needed to set up the dev environment. For instance, global dependencies 
 
 
 ## Setting up Dev
-
 Here's a brief intro about what a developer must do in order to start developing
 the project further:
 
@@ -50,11 +50,9 @@ the project further:
 
 
 ## Building
-
 Now, you need to change some line as per your connecton :
 #### JDBC Connecter 
 ##### open .classpath file and change
-
 ```xml
 	<classpathentry kind="lib" path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"/>
 		<!-- path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"  --> 
@@ -65,7 +63,6 @@ Now, you need to change some line as per your connecton :
 ```
 ##### JDK connecter
 ###### open conn.java file and change
-
 ```xml
 	<classpathentry kind="lib" path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"/>
 		<!-- path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"  --> 
@@ -78,9 +75,10 @@ Now, you need to change some line as per your connecton :
 you can change you code as per your Requirement.
 <hr>
 
-## Deploying / Publishing
 
+## Deploying / Publishing
 - Goto `Front_Page.java` and simple run file simple like normal java file.
+<hr>
 
 
 ## Style guide / Testing
@@ -113,12 +111,9 @@ How to work Our Application .
       - Generate Payment slips 
   7. About US Panel
 <hr>
-<br>
-
 
 
 ## Database
-
 - Goto Xampp Control panel , Start the **Apache** and **MySQL** server
 - Goto Chrome or your convinent browser and Type:  **http://localhost/phpmyadmin**
     - or Simply [click here!](http://localhost/phpmyadmin/)
@@ -126,6 +121,7 @@ How to work Our Application .
 - Then goto **import** navigater
 - Choose your Database file **"project3"** and upload there and click to **Go**
 <hr>
+
 
 ## License
 This project is licensed under <a href="./LICENSE"> Apache License 2.0 </a> 2024
