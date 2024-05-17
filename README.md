@@ -34,18 +34,23 @@ the project further:
     > cd Software-Personnel-Management-System
 ```
 
-**Step 1:** Deployee Database
-- goto Xampp Control panel , open Apache and mysql server
-- goto Chrome or your fav browser and serach : http://localhost/phpmyadmin/
-- create new data base name **project3** 
-- goto **import** navigater
-- choose your Database file **"project3"** and upload there and click to **Go**
+- **Step 1:** Deployee Database
+    - goto __XAMPP Control Panel__ , open __Apache__ and __MySQL__ server
+    - Open __Chrome__ or your fav browser and serach:  _http://localhost/phpmyadmin/_
+    - create new __Database__ and name it as __project3__ 
+    - Then goto __import__ navigater
+    - Choose your Database file __project3__ and upload there, Then click __Go__
 
-**Step 2:** Install JDK & Eclipse step by step 
-- no need Additional features
+- **Step 2:** Install JDK & Eclipse step by step 
+    - no need Additional features
 
-**Step 3 :** open Project Folder in Eclipse
-- Run `Front_Page.java` by clicking the play button
+- **Step 3 :** open Project Folder in Eclipse
+    - Run `Front_Page.java` by clicking the play button
+<hr>
+
+## Note
+- For __Testing__ the `test cases`, you've to install the __JUnit Tools 4 Spring 1.2.4__ plugin in __Eclipse Marketplace__.
+- __JUnit Tools 4 Spring__ `1.2.4` plugin with any version.
 <hr>
 
 
