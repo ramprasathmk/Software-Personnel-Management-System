@@ -49,7 +49,7 @@ the project further:
 <hr>
 
 ## Note
-- For __Testing__ the `test cases`, you've to install the __JUnit Tools 4 Spring 1.2.4__ plugin in __Eclipse Marketplace__.
+- For __Testing__ the `test cases`, you've to install the __JUnit Tools 4 Spring 1.2.4__ plugin in __Eclipse__ from the __Eclipse Marketplace__.
 - __JUnit Tools 4 Spring__ `1.2.4` plugin with any version.
 <hr>
 
