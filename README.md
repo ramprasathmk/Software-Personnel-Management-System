@@ -35,9 +35,9 @@ the project further:
 ```
 
 - **Step 1:** Deployee Database
-    - goto __XAMPP Control Panel__ , open __Apache__ and __MySQL__ server
+    - Goto __XAMPP Control Panel__ , open __Apache__ and __MySQL__ server
     - Open __Chrome__ or your fav browser and serach:  _http://localhost/phpmyadmin/_
-    - create new __Database__ and name it as __project3__ 
+    - Create new __Database__ and name it as __project3__ 
     - Then goto __import__ navigater
     - Choose your Database file __project3__ and upload there, Then click __Go__
 
@@ -95,26 +95,26 @@ How to work Our Application .
 
 1. Welcome page
 2. Login page
-    - login with Username & Id
-    - Signup & Forgot password 
+    - Login with Username & password
+    - Signup & Forgot passwordassword 
 3. Home page 
     - Employee 
     - Salary
     - Attendance
     - About US
-  4. Employee Panel
-      - Add Employee
-      - Update Employee
-      - View Employee
-      - Remove Employee
-  5. Attendance Panel
-      - Fill Attendance
-      - View Attendance
-  6. salary Panel
-      - Add Salary
-      - Update Salary
-      - Generate Payment slips 
-  7. About US Panel
+4. Employee Panel
+    - Add Employee
+    - Update Employee
+    - View Employee
+    - Remove Employee
+5. Attendance Panel
+    - Fill Attendance
+    - View Attendance
+6. salary Panel
+    - Add Salary
+    - Update Salary
+    - Generate Payment slips 
+7. About US Panel
 <hr>
 
 
