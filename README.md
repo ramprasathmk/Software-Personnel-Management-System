@@ -95,8 +95,8 @@ How to work Our Application .
 
 1. Welcome page
 2. Login page
-    - Login with Username & password
-    - Signup & Forgot passwordassword 
+    - Login with Username or Employee ID & Password
+    - Signup & Forgot Password 
 3. Home page 
     - Employee 
     - Salary
