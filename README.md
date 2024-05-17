@@ -82,7 +82,7 @@ you can change you code as per your Requirement.
 
 
 ## Deploying / Publishing
-- Goto `Front_Page.java` and simple run file simple like normal java file.
+- Goto `Front_Page.java` and simply run the file.
 <hr>
 
 
