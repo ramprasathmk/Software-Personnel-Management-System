@@ -35,11 +35,11 @@ the project further:
 ```
 
 - **Step 1:** Deployee Database
-    - Goto __XAMPP Control Panel__ , open __Apache__ and __MySQL__ server
-    - Open __Chrome__ or your fav browser and serach:  _http://localhost/phpmyadmin/_
-    - Create new __Database__ and name it as __project3__ 
-    - Then goto __import__ navigater
-    - Choose your Database file __project3__ and upload there, Then click __Go__
+    - Goto __`XAMPP Control Panel`__ , open __`Apache`__ and __`MySQL`__ server
+    - Open __`Chrome`__ or your fav browser and serach:  _http://localhost/phpmyadmin/_
+    - Create new __`Database`__ and name it as __`project3`__ 
+    - Then goto __`import`__ navigater
+    - Choose your Database file __`project3`__ and upload there, Then click __`Go`__
 
 - **Step 2:** Install JDK & Eclipse step by step 
     - no need Additional features
