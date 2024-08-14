@@ -79,7 +79,8 @@ CREATE TABLE `employee` (
   `education` varchar(15) NOT NULL,
   `post` varchar(15) NOT NULL,
   `aadhar` varchar(12) NOT NULL UNIQUE,
-  `emp_id` int(5) NOT NULL UNIQUE
+  `emp_id` int(5) NOT NULL UNIQUE,
+  PRIMARY KEY(emp_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
