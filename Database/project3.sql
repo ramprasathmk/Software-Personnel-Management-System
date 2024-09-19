@@ -40,7 +40,9 @@ CREATE TABLE `account` (
 --
 
 INSERT INTO `account` (`username`, `name`, `password`, `sec_q`, `sec_ans`) VALUES
-('vidhin123', 'vidhin', '123', 'Your NickName?', '123');
+('ramprasath', 'ramprasathmk', '123', 'Your NickName?', '123');
+INSERT INTO `account` (`username`, `name`, `password`, `sec_q`, `sec_ans`) VALUES
+('sailesh12', 'saileshbabu', '123', 'Your NickName?', '123');
 
 -- --------------------------------------------------------
 
@@ -88,8 +90,8 @@ CREATE TABLE `employee` (
 --
 
 -- INSERT INTO `employee` (`name`, `fname`, `age`, `dob`, `address`, `phone`, `email`, `education`, `post`, `aadhar`, `emp_id`) VALUES
--- ('vidhinpatel', 'D', 20, '2021-09-23', 'malosan', 1236547891, 'v@v.com', 'B.tech', 'programer', '789654123654', 101),
--- ('jeet', 'a', 20, '2002-05-15', 'visnagar', 1236547895, 'j@j.com', 'IT', 'hr', '456987123654', 102);
+-- ('Shiyam', 'P', 20, '2021-09-23', 'Thiruvarur', 1236547891, 'shiyam@shiyam.com', 'B.tech', 'programer', '789654123654', 101),
+-- ('Tamizhinian', 'G', 20, '2002-05-15', 'Pattukottai', 1236547895, 'tamil@gt.com', 'IT', 'hr', '456987123654', 102);
 
 -- --------------------------------------------------------
 
@@ -111,9 +113,9 @@ CREATE TABLE `salary` (
 --
 
 --INSERT INTO `salary` (`id`, `hra`, `da`, `med`, `pf`, `basic_salary`) VALUES
--- (101, '1000.00', '1000.00', '1555.00', '1000.00', '10000.00'),
--- (102, '84584.00', '55468.00', '55.00', '5425.00', '5458.00');
--- COMMIT;
+(101, '1000.00', '1000.00', '1555.00', '1000.00', '10000.00'),
+(102, '84584.00', '55468.00', '55.00', '5425.00', '5458.00');
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
