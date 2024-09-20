@@ -98,15 +98,13 @@ public class AboutUs extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent ae) {
-        if (ae.getSource() == backButton) {
-            contentPane.setVisible(false);
-            System.exit(0);
-            new Home();
-        }
-
         if (ae.getSource() == exitButton) {
             contentPane.setVisible(false);
             System.exit(0);
+        }
+
+        if (ae.getSource() == backButton) {
+            new Home();
         }
     }
 }
