@@ -4,12 +4,9 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;;
 
+@SuppressWarnings("serial")
 public class AboutUs extends JFrame implements ActionListener {
 
-    /**
-     *
-     */
-    private static final long serialVersionUID = 1L;
     JPanel contentPane;
     JButton backButton, exitButton;
 
@@ -103,6 +100,7 @@ public class AboutUs extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent ae) {
         if (ae.getSource() == backButton) {
             contentPane.setVisible(false);
+            System.exit(0);
             new Home();
         }
 
