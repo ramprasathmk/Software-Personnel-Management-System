@@ -5,6 +5,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+@SuppressWarnings("serial")
 public class pay_slip extends JFrame implements ActionListener {
 
     Choice c1;

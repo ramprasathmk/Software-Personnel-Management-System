@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+@SuppressWarnings("serial")
 public class Attendance extends JFrame implements ActionListener {
 
     JLabel l1, l2, l3, l4, l5, l6, l7;

@@ -5,6 +5,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.sql.*;
 
+@SuppressWarnings("serial")
 public class Login extends JFrame implements ActionListener {
 
 	private JPanel panel;
