@@ -29,7 +29,7 @@ public class AboutUs extends JFrame implements ActionListener {
 
         JLabel l1 = new JLabel("New label");
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/AboutUs.png"));
-        Image i2 = i1.getImage().getScaledInstance(i1.getIconWidth(), i1.getIconHeight(), Image.SCALE_DEFAULT);
+        Image i2 = i1.getImage().getScaledInstance(i1.getIconWidth(), i1.getIconHeight(), Image.SCALE_SMOOTH);
         ImageIcon i3 = new ImageIcon(i2);
         l1 = new JLabel(i3);
         l1.setBounds(500, 40, 250, 100);
