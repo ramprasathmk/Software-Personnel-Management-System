@@ -22,6 +22,7 @@ public class AboutUs extends JFrame implements ActionListener {
         // f=new JFrame("About Us");
         setBackground(new Color(173, 216, 230));
         setBounds(350, 150, 700, 500);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         contentPane = new JPanel();
         setContentPane(contentPane);
@@ -99,8 +100,7 @@ public class AboutUs extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent ae) {
         if (ae.getSource() == exitButton) {
-            contentPane.setVisible(false);
-            System.exit(0);
+            dispose();
         }
 
         if (ae.getSource() == backButton) {
