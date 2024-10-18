@@ -1,9 +1,10 @@
 # SOFTWARE PERSONNEL MANAGEMENT SYSTEM 
 
 <img src="https://squeezegrowth.com/wp-content/uploads/2022/12/1549-Best-School-Management-Software-rev.png" alt="Logo of the project" align="center">
-<hr>
 
 The Software Personnel Management System (Employee Management System) is a software, that helps your employees to give their best efforts every day to achieve the goals of your organization. It guides and manages employees efforts in the right direction. It also securely stores and manages personal and other work-related details for your employees.
+
+[jdk19]: https://download.oracle.com/java/19/archive/jdk-19_windows-x64_bin.exe
 
 # Installing / Getting started
 ## Developing
@@ -15,14 +16,12 @@ The Software Personnel Management System (Employee Management System) is a softw
 3. mysql-connector.jar
 4. xampp-windows-x64-8.0.9-0-VS16
 5. mysql
-<hr>
 
 
 ## Prerequisites
 What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
 1. https://www.eclipse.org/downloads/
 2. https://www.apachefriends.org/download.html
-<hr>
 
 
 ## Setting up Dev
@@ -41,17 +40,16 @@ the project further:
     - Then goto __`import`__ navigater
     - Choose your Database file __`project3`__ and upload there, Then click __`Go`__
 
-- **Step 2:** Install JDK & Eclipse step by step 
+- **Step 2:** Install JDK & Eclipse step by step
+    - Download [Java JDK-19][jdk19]
     - no need Additional features
 
 - **Step 3 :** open Project Folder in Eclipse
     - Run `Front_Page.java` by clicking the play button
-<hr>
 
 ## Note
 - For __Testing__ the `test cases`, you've to install the __JUnit Tools 4 Spring 1.2.4__ plugin in __Eclipse__ from the __Eclipse Marketplace__.
 - __JUnit Tools 4 Spring__ `1.2.4` plugin with any version.
-<hr>
 
 
 ## Building
@@ -59,7 +57,7 @@ Now, you need to change some line as per your connecton :
 #### JDBC Connecter 
 ##### open .classpath file and change
 ```xml
-	<classpathentry kind="lib" path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="./Software-Personnel-Management-System/mysql-connecter/mysql-connector.jar"/>
 		<!-- path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"  --> 
 		<!-- set the path of where your mysql connecter location. like my current location
 		D:\College\Employee_Project\Employee-Management-System\mysql-connecter -->
@@ -69,7 +67,7 @@ Now, you need to change some line as per your connecton :
 ##### JDK connecter
 ###### open conn.java file and change
 ```xml
-	<classpathentry kind="lib" path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="./Software-Personnel-Management-System/mysql-connecter/mysql-connector.jar"/>
 		<!-- path="D:/College/Employee_Project/Employee-Management-System/mysql-connecter/mysql-connector.jar"  --> 
 		<!-- set the path of where your mysql connecter location. like my current location
 		D:\College\Employee_Project\Employee-Management-System\mysql-connecter -->
@@ -78,12 +76,10 @@ Now, you need to change some line as per your connecton :
 ```
 
 you can change you code as per your Requirement.
-<hr>
 
 
 ## Deploying / Publishing
 - Goto `Front_Page.java` and simply run the file.
-<hr>
 
 
 ## Style guide / Testing
@@ -115,7 +111,6 @@ How to work Our Application .
     - Update Salary
     - Generate Payment slips 
 7. About US Panel
-<hr>
 
 
 ## Database
@@ -124,8 +119,13 @@ How to work Our Application .
 - Create  new database name **project3** 
 - Then goto **import** navigater
 - Choose your Database file **"project3"** and upload there and click to **Go**
-<hr>
+
+
+## Collaborators
+- [Ramprasath M K](https://github.com/ramprasathmk/)
+- [Sailesh Babu C](https://github.com/Sailesh1200/)
+- [Santhosh R](https://github.com/SanthoshRavichandran07/)
 
 
 ## License
-This project is licensed under <a href="./LICENSE"> Apache License 2.0 </a> 2024
+This project is licensed under <a href="./LICENSE"> Apache License 2.0 </a> 2024.
