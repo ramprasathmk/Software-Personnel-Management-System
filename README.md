@@ -128,4 +128,4 @@ How to work Our Application .
 
 
 ## License
-This project is licensed under <a href="./LICENSE"> Apache License 2.0 </a> 2024.
+- This project is licensed under <a href="./LICENSE"> Apache License 2.0 </a> 2024.
